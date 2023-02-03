@@ -1,0 +1,87 @@
+.nav-bar-gradient{
+    background: linear-gradient(217deg, rgba(25, 0, 255, 0.899), rgba(255, 255, 255, 0) 90%);   
+}
+.arrow-up{
+  background-color: rgba(0, 0, 0, 1);
+  padding: 2vh;
+  border-radius: 2vh;
+}
+.fecharJanelas{
+  width: 25vh;
+}
+.x-fechar:hover{
+  color: red;
+}
+.edit-submit-btn:hover{
+  box-shadow: 2vh 2vh 2vh black; 
+}
+#foo{
+position: fixed;
+z-index: 1000;
+width: 20%;
+height: 50%;
+padding: 2%;
+background: linear-gradient(180deg, rgba(25, 0, 255), rgba(255, 255, 255, 0.900) 90%);
+display: block, fit-content;
+}
+.isMoving {
+  z-index: 1001 !important;
+}
+.perfil-flutuante{
+  text-align: left;
+}
+.tbl{
+  padding: 2%;
+  width: 80%; 
+  margin-left: 20%;
+}
+.perfil-tbl{
+  text-align: center;
+}
+.painel-titulo{
+  margin-top: 2vh;
+}
+.navbar-opcoes{
+  margin: 2vh;
+  font-size: larger;
+}
+.navbar-entrar{
+  padding: 2vh;
+}
+.navbar-sair{
+  padding: 2vh;
+}
+.navbar-entrar:hover, .navbar-sair:hover{
+    color: grey;
+    transition: 0.5s ease;
+  }
+.relogio{
+  margin-left: 80%;
+}
+.pesquisa-box{
+  padding: 2vh; 
+  box-shadow: 2vh 2vh 2vh black; 
+  position: fixed; 
+  margin-left: 2vh;
+  background-color: whitesmoke;
+  width: fit-content;
+}
+.select-tbl-box{
+  background-color: whitesmoke;
+  padding: 2%; 
+  box-shadow: 2vh 2vh 2vh black; 
+  position: fixed; 
+  margin-left: 2vh;
+  margin-top: -12%;
+  width: fit-content;
+}
+.janelaFlutuante-outbox{
+  box-shadow: 2vh 2vh 2vh black;
+  width: fit-content;
+}
+.editInfo-box{
+  background-color: whitesmoke;
+  position: fixed;
+  padding: 2%;
+  z-index: 99;
+}
