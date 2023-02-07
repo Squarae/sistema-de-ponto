@@ -6,10 +6,10 @@
   padding: 2vh;
   border-radius: 2vh;
 }
-.fecharJanelas{
-  width: 25vh;
-}
 .x-fechar:hover{
+  color: red;
+}
+.fecharTodasJanelas:hover{
   color: red;
 }
 .edit-submit-btn:hover{
@@ -54,7 +54,7 @@ display: block, fit-content;
 .navbar-entrar:hover, .navbar-sair:hover{
     color: grey;
     transition: 0.5s ease;
-  }
+}
 .relogio{
   margin-left: 80%;
 }
@@ -84,4 +84,19 @@ display: block, fit-content;
   position: fixed;
   padding: 2%;
   z-index: 99;
+}
+.box-login{
+  width: fit-content;
+  margin: auto;
+  margin-top: 10%;
+  padding: 2%;
+}
+.outbox-login{
+  padding: 2%;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
