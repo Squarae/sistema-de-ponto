@@ -53,13 +53,17 @@
       </nav>
 </header>
 <main class="outbox-login">
+  <form method="POST" action="">
 <div class="box-login border border-dark-subtle bg-white">
 <label for="inputPassword5" class="form-label">Senha</label>
 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 <div id="passwordHelpBlock" class="form-text">
   Sua senha precisa ter entre 8-20 caracteres, conter letras e números, sem espaços e caracteres especiais ou emojis.
+</div><br>
+<input type="submit" id="submitADM" name="submitADM" class="btn btn-success" value="Entrar">
+<input type="reset" id="limpaCampoADM" name="limpaCampoADM" class="btn btn-warning" value="Limpar">
 </div>
-</div>
+</form>
 </main>
 <footer>
 <div class="text-center text-light bg-black">
